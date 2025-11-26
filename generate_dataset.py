@@ -4,19 +4,7 @@
  is totally mimicking the real world """
 
 
-"""
-Realistic-ish BYOD dataset generator for:
-"Securing BYOD Productivity in Classroom"
 
-This version tries to feel more like the real world:
-- Students have different behaviour types (focused / average / easily distracted)
-- Some social media usage can still be marked productive (e.g., class group)
-- Some "good" apps can still be unproductive (open but not paying attention)
-- Time of day, subject, duration, tab switches all influence the label
-- There's random noise, so it's not perfectly predictable
-
-Result: the data has patterns, but it's not "clean math".
-"""
 
 import numpy as np
 import pandas as pd
